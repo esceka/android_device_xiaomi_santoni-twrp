@@ -26,7 +26,3 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvi
 # Recovery
 PRODUCT_COPY_FILES += \
     device/xiaomi/santoni/zImage-dtb:kernel
-
-#Encryption
-PRODUCT_PACKAGES += \
-    libcryptfs_hw

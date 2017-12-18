@@ -25,8 +25,6 @@
 
 DEVICE_PATH := device/xiaomi/santoni
 
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
-
 # Architecture
 TARGET_BOARD_SUFFIX := _64
 
@@ -57,9 +55,6 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/zImage-dtb
 # Platform
 TARGET_BOARD_PLATFORM := msm8940
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno505
-
-# Encryption
-TARGET_HW_DISK_ENCRYPTION := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
